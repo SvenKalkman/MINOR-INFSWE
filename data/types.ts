@@ -2,10 +2,10 @@ export interface Student {
 	name: string
 	surname: string
 	age: number,
-	grades: Array<Grade>
+	course: Array<Course>
 }
 
-export interface Grade {
+export interface Course {
 	grade?: number
 	courseId: string
 }

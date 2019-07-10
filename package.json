@@ -1,0 +1,18 @@
+{
+  "name": "project-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc -p .",
+    "runJs": "node ./build/index.js",
+    "start": "npm run compile && cls && npm run runJs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tsc": "^1.20150623.0",
+    "tslint": "^5.18.0",
+    "typescript": "^3.5.2"
+  }
+}
